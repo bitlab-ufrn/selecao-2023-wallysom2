@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import GlobalStyles from './styles/Global-styles';
+import GlobalStyles from './styles/global';
 import Home from './pages/Home';
 import BlackListPage from './pages/Black-list';
 import WhiteListPage from './pages/White-list';
