@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Container, Title, Input, Button, List, ListItem, ButtonList } from '../../styles/Container-styles';
+import { Container, Title, Input, Button, List, ListItem, ButtonList } from './../styles/Container-styles';
 import axios from 'axios';
 
 type BlacklistProps = {};

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { checkForProfanity } from './../../repositories/check-repository';
+import { checkForProfanity } from '../repositories/check-repository';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { Container, Title, Input, Button } from '../../styles/Container-styles';
+import { Container, Title, Input, Button } from '..//styles/Container-styles';
 
 const App: React.FC = () => {
 const [text, setText] = useState<string>('');
