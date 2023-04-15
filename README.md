@@ -34,3 +34,51 @@ Você está livre para utilizar qualquer linguagem ou ferramenta.
 1. Adicione a esse README instruções de acesso ao seu sistema
 
 ## Acesso
+
+# My check-Text 🎬
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qzDMlkk-Rhs" frameborder="0" allowfullscreen></iframe>
+
+
+## Visão geral do projeto
+
+Esta é uma API para analisar o conteudo escrito pelo usuario. 
+Ela permite criar, editar, excluir e visualizar palhavras inapropriadas, bem como criar exceções.
+
+## Um pouco das tecnologias usadas:
+
+- [Typescript](https://www.typescriptlang.org/)
+- [Express](https://expressjs.com/)
+- [Web-purify]
+- [Styled-components]
+- [Axios]
+
+## 💻 Clonando projeto
+
+```bash
+$ git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-back.git && cd selecao-2023-wallysom2/check-text-back
+```
+## 🧷 Instalando dependências
+```bash
+$ npm i
+```
+
+## ⚙️ Rodando o projeto
+```bash
+$ npm run dev
+```
+
+## Agora o Frontend
+
+```bash
+$ git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-front.git && cd selecao-2023-wallysom2/check-text-front
+```
+## 🧷 Instalando dependências
+```bash
+$ npm i
+```
+
+## ⚙️ Rodando o projeto
+```bash
+$ npm start
+```
