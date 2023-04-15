@@ -15,6 +15,10 @@ font-weight: bold;
 font-size: 3rem; 
 margin-bottom: 4rem; 
 color: #151515;
+
+@media (max-width: 600px) {
+    font-size: 2rem;
+  }
 `;
 
 const Input = styled.input`
@@ -26,6 +30,11 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 margin-bottom: 4rem;
 background-color: white;
 color: #333333;
+
+
+@media (max-width: 600px) {
+    font-size: 1rem;
+  }
 `;
 
 const Button = styled.button`
@@ -38,6 +47,10 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 background-color: #292929; 
 color: #FFFFFF; 
 cursor: pointer;
+
+@media (max-width: 600px) {
+    font-size: 1rem;
+  }
 `;
 
 const List = styled.ul`
@@ -51,6 +64,11 @@ margin-right: 1rem;
 font-size: 16px;
 line-height: 1.5;
 margin-bottom: 8px;
+
+
+@media (max-width: 600px) {
+    font-size: 1rem;
+  }
 `;
 
 const ButtonList = styled.button`
@@ -62,6 +80,11 @@ const ButtonList = styled.button`
   background-color: #FFE7E7;
   color: #151515;
   cursor: pointer;
+
+  
+  @media (max-width: 600px) {
+    font-size: 1rem;
+  }
 `;
 
 
