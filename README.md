@@ -37,7 +37,7 @@ Você está livre para utilizar qualquer linguagem ou ferramenta.
 
 # My check-Text 🎬
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qzDMlkk-Rhs" frameborder="0" allowfullscreen></iframe>
+[![check-text](https://img.youtube.com/vi/qzDMlkk-Rhs/0.jpg)](https://www.youtube.com/watch?v=qzDMlkk-Rhs "check-text")
 
 
 
