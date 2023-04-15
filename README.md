@@ -35,7 +35,7 @@
 ### ⚒️ Backend Configuration
 
 >```bash
-> $ git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-back.git && cd selecao-2023-wallysom2/check-text-back
+> $ git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-back.git
 > $ cd selecao-2023-wallysom2/check-text-back
 >```
 ##### Installation of dependencies
