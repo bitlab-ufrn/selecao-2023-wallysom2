@@ -40,12 +40,13 @@ Você está livre para utilizar qualquer linguagem ou ferramenta.
 ## Deploy
 - [Link do projeto](https://selecao-2023-wallysom2-z3hc.vercel.app/)
 
-[![check-text](https://img.youtube.com/vi/qzDMlkk-Rhs/0.jpg)](https://www.youtube.com/watch?v=qzDMlkk-Rhs "check-text")
+[![check - Compressed with FlexClip (1)](https://user-images.githubusercontent.com/37665843/232227639-c9a6666e-36d9-4909-9600-b1b01f863b9c.gif)](https://selecao-2023-wallysom2-z3hc.vercel.app/)
 
 
 ## Visão geral do projeto 📝
 
-Este é um projeto que tem como objetivo analisar se um texto contém palavras consideradas impróprias e permite a adição/exclusao de novas palavras à lista de palavras impróprias ou exceções.
+Este é um projeto que tem como objetivo analisar se um texto contém palavras consideradas impróprias e permite a 
+adição/exclusao de novas palavras à lista de palavras indesejadas ou exceções.
 
 ## Um pouco das tecnologias usadas:
 
