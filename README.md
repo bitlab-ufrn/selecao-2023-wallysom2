@@ -41,18 +41,18 @@ Você está livre para utilizar qualquer linguagem ou ferramenta.
 
 
 
-## Visão geral do projeto
+## Visão geral do projeto 📝
 
-Esta é uma API para analisar o conteudo escrito pelo usuario. 
-Ela permite criar, editar, excluir e visualizar palhavras inapropriadas, bem como criar exceções.
+Esta é uma ferramenta para analisar o conteúdo escrito pelo usuário. 
+Ela permite criar, editar, excluir e visualizar palavras inapropriadas, bem como criar exceções.
 
 ## Um pouco das tecnologias usadas:
 
 - [Typescript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/)
-- [Web-purify]
-- [Styled-components]
-- [Axios]
+- [Web-purify](https://www.webpurify.com/)
+- [Styled-components](https://styled-components.com/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
 
 ## 💻 Clonando projeto
 
@@ -69,7 +69,7 @@ $ npm i
 $ npm run dev
 ```
 
-## Agora o Frontend
+## Agora o Frontend 🎯
 
 ```bash
 $ git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-front.git && cd selecao-2023-wallysom2/check-text-front
