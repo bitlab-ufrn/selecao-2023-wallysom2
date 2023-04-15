@@ -1,100 +1,68 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/1a1_PfEr)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10871886&assignment_repo_type=AssignmentRepo)
-# Seleção Bitlab 2023
+# Bitlab Selection Process Challenge - 2023
 
-Olá, bem vindo ao desafio para seleção de bolsistas para o Bitlab 2023! Nesse documento você encontrará as instruções para a execução do seu desafio! Sem enrolação, vamos as instruções.
+### 🖥 Application Demo (Quick and Easy Access)
+> - Link: https://selecao-2023-wallysom2-z3hc.vercel.app/
+>
+> [![check - Compressed with FlexClip (1)](https://user-images.githubusercontent.com/37665843/232227639-c9a6666e-36d9-4909-9600-b1b01f863b9c.gif)](https://selecao-2023-wallysom2-z3hc.vercel.app/)
 
-## Desafio
+### ➕ Project Overview
+> This project aims to analyze if a text contains words considered inappropriate and allows the addition/deletion of new words to the list of unwanted words or exceptions.
 
-Havia uma vez uma pequena empresa de tecnologia chamada "Segurança Online". Eles eram especializados em segurança cibernética e estavam comprometidos em ajudar as pessoas a navegar na Internet de forma segura.
+### 💻 Technical Solution
+> A TypeScript and Node API was created that accesses Web-purify services and, through HTTP methods, supports the frontend to analyze user inputs, as well as manage the words that will be considered. The visual part of the project > was made in React and with the Typescript template for CRA.
 
-Um dia, a equipe da "Segurança Online" foi contatada por um cliente preocupado com o conteúdo inapropriado que estava aparecendo em seu site. O cliente explicou que o site permitia que os usuários postassem comentários e que muitos desses comentários continham linguagem ofensiva e até mesmo ameaças violentas.
+### ⚒️ Technologies Used
+#### Frontend
 
-A equipe da "Segurança Online" entendeu imediatamente a gravidade do problema e se comprometeu a encontrar uma solução. Eles sabiam que a melhor maneira de lidar com esse tipo de situação era criar um algoritmo de detecção de conteúdo impróprio.
+>  `React` `React Router DOM` `Responsiviness` `Styled-reset`
 
-Assim, suponha  que você foi o profissional escolhido pela "Segurança Online" para implementar tal solução.  **Logo, você deve criar um sistema capaz de detectar textos com conteúdo impróprio.**
-
-> Entenda por conteúdo impróprio o texto que possui expressões ofensivos ou palavões.
-
-Você pode criar um conjunto de palavras e expressões ofensivas, caso ache necessário.
-
-### Apresentação
-
-Para a utilização do seu algoritmo, crie uma interface simples __web__ que permita que o usuário escreva um texto e submeta a análise se contém ou não conteúdo ofensivo. Você deve apresentar na interface claramente o resultado obtido pelo algoritmo.
-
-Você está livre para utilizar qualquer linguagem ou ferramenta.
-
-## Instruções
-
-1. Acesso o link https://classroom.github.com/a/1a1_PfEr e aceite o convite
-1. Isso criará um repositório no seu nome, por onde deves enviar o seu código.
-1. Faça as alterações no repositório, comite e envie ao repositório remoto.
-1. Escreva um código limpo e de fácil compreensão
-1. Faça deploy para algum serviço de __cloud__ para que possamos acessar facilmente e testar sua aplicação. Sugestão https://vercel.com/
-1. Adicione a esse README instruções de acesso ao seu sistema
-
-## Acesso
-
-# My check-Text 🎬
-
-## Deploy
-- [Link do projeto](https://selecao-2023-wallysom2-z3hc.vercel.app/)
-
-[![check - Compressed with FlexClip (1)](https://user-images.githubusercontent.com/37665843/232227639-c9a6666e-36d9-4909-9600-b1b01f863b9c.gif)](https://selecao-2023-wallysom2-z3hc.vercel.app/)
+>  `React Toastify` `React Loader Spinner` `Styled-components` 
+>  `TypeScript`
 
 
-## Visão geral do projeto 📝
+#### Backend
+> `Node.js` `Express.js` ` Web-purify`
 
-Este é um projeto que tem como objetivo analisar se um texto contém palavras consideradas impróprias e permite a 
-adição/exclusao de novas palavras à lista de palavras indesejadas ou exceções.
+> `Axios` `Body-parser` `CORS` `Dotenv` `TypeScript`
 
-## Um pouco das tecnologias usadas:
+### ⌨️ Features
+> - Verify if any unsuitable words are present
+> - Add/remove words that would not typically be deemed inappropriate
+> - Add/remove words that, despite being unsuitable, will not be deemed inappropriate
 
-- [Typescript](https://www.typescriptlang.org/)
-- [Express](https://expressjs.com/)
-- [Web-purify](https://www.webpurify.com/)
-- [Styled-components](https://styled-components.com/)
-- [Axios](https://axios-http.com/ptbr/docs/intro)
+### ⚙️ Instructions to run the application locally:
 
-## 💻 Clonando projeto
+### ⚒️ Backend Configuration
 
-```bash
-$ git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-back.git && cd selecao-2023-wallysom2/check-text-back
-```
-## 🧷 Instalando dependências
-```bash
-$ npm i
-```
+>```bash
+> $ git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-back.git && cd selecao-2023-wallysom2/check-text-back
+> $ cd selecao-2023-wallysom2/check-text-back
+>```
+##### Installation of dependencies
+>```bash
+> $ npm i
+>```
 
-## ⚙️ Rodando o projeto
-```bash
-$ npm run dev
-```
+##### Run API
+>```bash
+> $ npm run dev
+>```
 
-## Agora o Frontend 🎯
+### ⚒️ Frontend Configuration
 
-```bash
-$ git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-front.git && cd selecao-2023-wallysom2/check-text-front
-```
-## 🧷 Instalando dependências
-```bash
-$ npm i
-```
+>```bash
+>git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-front.git 
+>cd selecao-2023-wallysom2/check-text-front
+>```
+##### Installation of dependencies
+>```bash
+>npm i
+>```
+##### Run the project
+>```bash
+>npm start
+>``` 
 
-## ⚙️ Rodando o projeto
-```bash
-$ npm start
-```
-
-## Funcionalidades
-
-1. Verificação de palavras consideradas impróprias em um texto inserido pelo usuário.
-2. Destaque das palavras impróprias encontradas no texto inserido pelo usuário.
-3. Exibição de mensagem de alerta quando palavras impróprias são encontradas.
-4. Adição de novas palavras à lista de palavras impróprias.
-5. Adição de exceções à lista de palavras consideradas impróprias pelo sistema.
-6. Utilização da biblioteca web-purify para verificação de palavras impróprias.
-7. Utilização da biblioteca styled-components para estilização dos componentes.
-8. Utilização da biblioteca Axios para realizar as requisições à API.
-9. Implantação da aplicação web na plataforma Vercel.
+### 😊 Author
+> Wallyson Matheus
 
