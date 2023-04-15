@@ -26,22 +26,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
-    "build": "tsc",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix"
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "render": {
-    "buildCommand": "npm run build",
-    "startCommand": "npm start",
-    "env": {
-      "WEBPURIFY_API_KEY": "44ba52f414a2316f12863791c4549f87",
-      "WEBPURIFY_ENDPOINT": "https://api1.webpurify.com/services/rest/",
-      "PORT": "3000"
-    }
-  },
-  
+
   "eslintConfig": {
     "extends": [
       "react-app",
