@@ -32,7 +32,7 @@
 
 ### ⚙️ Instructions to run the application locally:
 
-### ⚒️ Backend Configuration
+#### ⚒️ Backend Configuration
 
 >```bash
 > git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-back.git
@@ -48,7 +48,7 @@
 > npm run dev
 >```
 
-### ⚒️ Frontend Configuration
+#### ⚒️ Frontend Configuration
 
 >```bash
 > git clone https://github.com/bitlab-ufrn/selecao-2023-wallysom2/check-text-front.git 
