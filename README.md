@@ -37,14 +37,15 @@ Você está livre para utilizar qualquer linguagem ou ferramenta.
 
 # My check-Text 🎬
 
-[![check-text](https://img.youtube.com/vi/qzDMlkk-Rhs/0.jpg)](https://www.youtube.com/watch?v=qzDMlkk-Rhs "check-text")
+## Deploy
+- [Link do projeto](https://selecao-2023-wallysom2-z3hc.vercel.app/)
 
+[![check-text](https://img.youtube.com/vi/qzDMlkk-Rhs/0.jpg)](https://www.youtube.com/watch?v=qzDMlkk-Rhs "check-text")
 
 
 ## Visão geral do projeto 📝
 
-Esta é uma ferramenta para analisar o conteúdo escrito pelo usuário. 
-Ela permite criar, editar, excluir e visualizar palavras inapropriadas, bem como criar exceções.
+Este é um projeto que tem como objetivo analisar se um texto contém palavras consideradas impróprias e permite a adição/exclusao de novas palavras à lista de palavras impróprias ou exceções.
 
 ## Um pouco das tecnologias usadas:
 
@@ -83,3 +84,16 @@ $ npm i
 ```bash
 $ npm start
 ```
+
+## Funcionalidades
+
+1. Verificação de palavras consideradas impróprias em um texto inserido pelo usuário.
+2. Destaque das palavras impróprias encontradas no texto inserido pelo usuário.
+3. Exibição de mensagem de alerta quando palavras impróprias são encontradas.
+4. Adição de novas palavras à lista de palavras impróprias.
+5. Adição de exceções à lista de palavras consideradas impróprias pelo sistema.
+6. Utilização da biblioteca web-purify para verificação de palavras impróprias.
+7. Utilização da biblioteca styled-components para estilização dos componentes.
+8. Utilização da biblioteca Axios para realizar as requisições à API.
+9. Implantação da aplicação web na plataforma Vercel.
+
